@@ -1,3 +1,5 @@
+# Functie ie ik gebruikt heb om de positie van ul te vinden in de html
+
 with open("index.html", "r") as html_logger:
     html_text = html_logger.read()
 

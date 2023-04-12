@@ -1,11 +1,9 @@
-import sys  # om te zien of er een argument word meegegeven
+import sys
 from modi import menu, cli
-# from checks import init
 
 
 def main():
-    """ Start de applicatie. Met argument in de grafische interface, zonder argument in de cli """
-
+    """ Start de applicatie. Zonder argument in menu. Gebruik argument check om te pingen"""
 
     if len(sys.argv) > 1:
         cli(sys.argv)

@@ -2,6 +2,9 @@ import json
 
 
 def menu():
+    """Menu om het bestand servers.json te bewerken"""
+
+
     herhalen = True
     while herhalen == True:
         userinput = input(

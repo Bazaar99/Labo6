@@ -5,6 +5,8 @@ from datetime import datetime
 
 
 def check_ping():
+    """pingt de servers opgelijst in servers.json en schrijft het resultaat in index.html
+    logs worden geschreven naar logs.json"""
 
     with open("servers.json", "r") as servers:
         hostnames = json.load(servers)
