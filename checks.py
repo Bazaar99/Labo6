@@ -31,10 +31,10 @@ def check_ping():
         print(Style.RESET_ALL)
 
         content = content + \
-            f"<li>{dt[:19]} ----------------- {pingstatus} ------------------ {hostname}</li>"
+            f"<li>{dt[:19]}</li><li>{hostname}</li><li>{pingstatus}</li>"
 
-    front = html_text[:263]
-    middle = html_text[263: -24]
+    front = html_text[:357]
+    middle = html_text[357: -24]
     end = html_text[-24:]
 
     html_join = front + content + middle + end
