@@ -14,11 +14,11 @@ html {
 /* hier komt jouw css */
 
 ul {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 li {
   display: inline-block;
-  width: 33.33vw;
+  width: 33.33%;
   text-align: center;
   padding: 2rem;
   font-weight: bold;
